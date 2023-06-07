@@ -1,0 +1,28 @@
+{
+  "name": "ascii-art",
+  "version": "0.0.1",
+  "description": "Test of rendering ascii art using three.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test.js",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "non"
+  },
+  "keywords": [
+    "three.js",
+    "ascii-art"
+  ],
+  "author": "James Reid",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.47.0"
+  }
+}
